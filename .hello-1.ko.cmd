@@ -1,1 +1,0 @@
-cmd_/home/masoud/LinuxLearning/KernelModule/hello-1.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o /home/masoud/LinuxLearning/KernelModule/hello-1.ko /home/masoud/LinuxLearning/KernelModule/hello-1.o /home/masoud/LinuxLearning/KernelModule/hello-1.mod.o;  true

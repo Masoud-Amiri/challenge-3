@@ -1,1 +1,0 @@
-cmd_/home/masoud/LinuxLearning/KernelModule/Module.symvers := sed 's/ko$$/o/' /home/masoud/LinuxLearning/KernelModule/modules.order | scripts/mod/modpost  -a   -o /home/masoud/LinuxLearning/KernelModule/Module.symvers -e -i Module.symvers   -T -
